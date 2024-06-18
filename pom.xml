@@ -1,0 +1,90 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.example</groupId>
+  <artifactId>seleniumframework</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>Archetype - seleniumframework</name>
+  <url>http://maven.apache.org</url>
+
+    <dependencies>
+      <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.21.0</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/com.github.mkolisnyk/cucumber-reports -->
+      <dependency>
+        <groupId>com.github.mkolisnyk</groupId>
+        <artifactId>cucumber-reports</artifactId>
+        <version>1.0.6</version>
+
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-picocontainer -->
+      <dependency>
+        <groupId>info.cukes</groupId>
+        <artifactId>cucumber-picocontainer</artifactId>
+        <version>1.2.4</version>
+        <type>pom</type>
+        <scope>test</scope>
+      </dependency>
+
+
+      <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-core -->
+      <dependency>
+        <groupId>info.cukes</groupId>
+        <artifactId>cucumber-core</artifactId>
+        <version>1.2.4</version>
+        <type>pom</type>
+      </dependency>
+
+
+      <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
+      <dependency>
+        <groupId>info.cukes</groupId>
+        <artifactId>cucumber-java</artifactId>
+        <version>1.2.4</version>
+        <type>pom</type>
+      </dependency>
+
+
+      <!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
+      <dependency>
+        <groupId>net.masterthought</groupId>
+        <artifactId>cucumber-reporting</artifactId>
+        <version>3.10.0</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+<!--      <dependency>-->
+<!--        <groupId>io.cucumber</groupId>-->
+<!--        <artifactId>cucumber-testng</artifactId>-->
+<!--        <version>1.2.6</version>-->
+<!--      </dependency>-->
+
+
+      <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
+      <dependency>
+        <groupId>info.cukes</groupId>
+        <artifactId>cucumber-junit</artifactId>
+        <version>1.2.4</version>
+      </dependency>
+
+<!--      <dependency>-->
+<!--        <groupId>io.cucumber</groupId>-->
+<!--        <artifactId>cucumber-java</artifactId>-->
+<!--        <version>1.2.6</version>-->
+<!--      </dependency>-->
+
+      <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+      <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>5.8.0</version>
+      </dependency>
+
+    </dependencies>
+
+</project>
